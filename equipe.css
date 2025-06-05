@@ -1,0 +1,110 @@
+ body {
+            background-color: #f0f8ff;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Barra lateral */
+        .barralateral {
+            width: 220px;
+            background-color: rgb(4, 124, 199);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 10px;
+        }
+
+        .logo-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 0; /* quadrada */
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .logo-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+
+        .barralateral h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .barralateral a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            transition: color 0.3s;
+        }
+
+        .barralateral a:hover {
+            color: #c0ffc0;
+        }
+
+        .lista-container ul {
+            list-style-type: disc;
+            padding-left: 0;
+            text-align: left;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .lista-container li {
+            margin: 8px 0;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 10px 0;
+            max-width: 800px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+            text-align: left;
+            display: inline-block;
+            max-width: 800px;
+        }
+
+        button {
+            background-color:rgb(4, 124, 199); 
+            color: rgb(248, 250, 251);
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 30px;
+        }
+
+        button:hover {
+            background-color: rgb(4, 124, 199);
+            transform: scale(1.05);
+        }
+    
